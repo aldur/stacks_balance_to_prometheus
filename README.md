@@ -1,1 +1,3 @@
-# stacks_balance_to_prometheus
+# Stacks balance to Prometheus
+
+Provide a comma-separated list of `ADDRESSES`. Profit.

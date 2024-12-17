@@ -1,0 +1,12 @@
+services:
+  stacks_balance_to_prometheus:
+    container_name: stacks_balance_to_prometheus
+    restart: on-failure
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      ADDRESSES: SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4
+      # SCRAPING_INTERVAL: 300
+      # METRICS_PORT: 8081
+      # DEBUG: 1
